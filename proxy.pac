@@ -6,6 +6,6 @@ function FindProxyForURL(url, host) {
 
    if (dnsDomainIs(host, "") ||
          shExpMatch(host, "(*.webscantest.com)"))
-          return "PROXY 172.20.20.:808";
+          return "PROXY 172.20.20.9:808";
 
 }
